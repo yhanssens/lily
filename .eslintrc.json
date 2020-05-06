@@ -1,0 +1,73 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "browser": true
+    },
+    "globals": {
+        "eventHub": true,
+        "google": true,
+        "lang": true
+    },
+    "plugins": [
+        "import",
+        "html"
+    ],
+    "rules" : {
+        "import/no-named-as-default": 0,
+        "no-underscore-dangle": ["error", {
+            "allowAfterThis": true
+        }],
+        "import/extensions": ["error", "always", {
+            "js": "never",
+            "vue": "never"
+        }],
+        "indent": [
+            "error", 4, {
+                "SwitchCase": 1
+            }
+        ],
+        "max-len": ["warn", 120, {
+            "ignoreUrls" : true,
+            "ignoreComments" : false,
+            "ignoreRegExpLiterals" : true,
+            "ignoreStrings" : true,
+            "ignoreTemplateLiterals" : true
+        }],
+        "no-console": 0,
+        "no-mixed-operators": ["error", {
+            "groups": [
+                ["&", "|", "^", "~", "<<", ">>", ">>>"],
+                ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
+                ["&&", "||"],
+                ["in", "instanceof"]
+            ],
+            "allowSamePrecedence": true
+        }],
+        "no-param-reassign": ["error", {
+            "ignorePropertyModificationsFor": [
+                "state"
+            ]
+        }],
+        "no-plusplus": ["error", {
+            "allowForLoopAfterthoughts": true
+        }],
+        "no-shadow": ["error", {
+            "allow": [
+                "getters",
+                "state"
+            ]
+        }],
+        "prefer-destructuring": ["error", {
+            "object": false,
+            "array": false
+        }],
+        "prefer-template": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "webpack": {
+                "config": "node_modules/laravel-mix/setup/webpack.config.js"
+            }
+        }
+    }
+}
