@@ -5,6 +5,7 @@ const StylelintPlugin = require('stylelint-webpack-plugin');
 Mix.paths.setRootPath(process.cwd());
 
 mix
+    .setPublicPath('dist')
     .js('resources/js/app.js', 'dist/js')
     .sass('resources/scss/app.scss', 'dist/css')
     .extract()
