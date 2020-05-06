@@ -4,7 +4,6 @@ _ide_helper*
 .pacos-config
 .vscode
 auth.json
-dist
 mix-manifest.json
 node_modules
 npm-debug.log
