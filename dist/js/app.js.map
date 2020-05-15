@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"/js/app.js","sourceRoot":""}
+{"version":3,"sources":["webpack:///./resources/js/app.js"],"names":[],"mappings":"4IAAA,gD","file":"/js/app.js","sourcesContent":["import 'lazysizes';\nimport 'lazysizes/plugins/attrchange/ls.attrchange';\nimport 'lazysizes/plugins/object-fit/ls.object-fit';\nimport 'lazysizes/plugins/parent-fit/ls.parent-fit';\n"],"sourceRoot":""}
