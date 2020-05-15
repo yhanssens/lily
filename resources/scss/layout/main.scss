@@ -16,6 +16,10 @@ body {
     @include aspect-ratio(1, 1);
     margin-bottom: 8px;
 
+    &s {
+        background: #fff;
+    }
+
     img {
         position: absolute;
         top: 0;
