@@ -16,7 +16,8 @@
   "license": "ISC",
   "homepage": "https://lilyhanssens.nl",
   "dependencies": {
-    "@23g/pacos": "^4.0.0"
+    "@23g/pacos": "^4.0.0",
+    "lazysizes": "^5.2.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",

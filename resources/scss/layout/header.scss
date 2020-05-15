@@ -1,0 +1,21 @@
+.header {
+    @include aspect-ratio(135, 92);
+
+    background: rgba(#fff, 0.5) url('/resources/images/branding.svg') no-repeat 0 10% / 120% auto;
+
+    @include respond-to(md) {
+        background: rgba(#fff, 0.5) url('/resources/images/branding.svg') no-repeat 0 10% / 100% auto;
+    }
+
+    h1 {
+        position: absolute;
+        right: 40px;
+        bottom: 32px;
+        font-size: 40px;
+
+        @include respond-to(md) {
+            top: auto;
+            font-size: 50px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import '~@23g/pacos/scss/abstracts/functions';
+@import '~@23g/pacos/scss/abstracts/mixins';
+
+@import 'abstracts/variables';
+
+@import '~@23g/pacos/scss/base/reset';
+@import '~@23g/pacos/scss/base/utils';
+@import '~@23g/pacos/scss/vendors/bootstrap';
+
+@import 'base/fonts';
+@import 'base/typography';
+@import 'layout/main';
+@import 'layout/header';

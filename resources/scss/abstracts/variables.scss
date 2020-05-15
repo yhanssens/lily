@@ -1,0 +1,36 @@
+$primary: #d06b6d;
+
+$font-title: 'Giveny Free';
+$font-body: 'Alegreya';
+
+$breakpoints: (
+    xs: 0,
+    sm: 420px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1280px,
+    xxl: 1600px,
+    xxxl: 1800px,
+);
+
+// Bootstrap
+$theme-colors: (
+    primary: $primary,
+);
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 2,
+    6: $spacer * 2.5,
+);
+
+$grid-breakpoints: $breakpoints;
+$grid-gutter-width: 32px;
+
+$enable-shadows: false;
+$enable-transitions: true;
